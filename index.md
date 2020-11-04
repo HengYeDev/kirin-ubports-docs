@@ -21,7 +21,7 @@
 
 1. Boot TWRP
 2. Install the boot.img
-3. Install (halium-ramdisk.zip)[https://build.lolinet.com/file/halium/GSI/tools/halium-ramdisk.zip], (apparmor-enabler.zip](https://build.lolinet.com/file/halium/GSI/tools/apparmor_enabler.zip), (Halium boot no console patch](https://build.lolinet.com/file/halium/GSI/tools/Halium-boot_no_console_patch.zip), and (latest GSI)[https://build.lolinet.com/file/halium/GSI]
+3. Install [halium-ramdisk.zip](https://build.lolinet.com/file/halium/GSI/tools/halium-ramdisk.zip), [apparmor-enabler.zip](https://build.lolinet.com/file/halium/GSI/tools/apparmor_enabler.zip), [Halium boot no console patch](https://build.lolinet.com/file/halium/GSI/tools/Halium-boot_no_console_patch.zip), and [latest GSI](https://build.lolinet.com/file/halium/GSI)
 4. Reboot
 
 ## Problems and fixes
