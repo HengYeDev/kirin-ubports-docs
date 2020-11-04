@@ -58,4 +58,5 @@ make -j16 O=./out
 
 ## Resources
 
-* Kernel: https://github.com/hengyedev/kirinkernel
+* [Kernel](https://github.com/hengyedev/kirinkernel)
+* [UBports Project Homepage](https://ubports.com/)
