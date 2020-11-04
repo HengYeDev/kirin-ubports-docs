@@ -21,4 +21,4 @@ TODO
 
 ## Resources
 
-* [Kernel]{https://github.com/kirinkernel)
+* Kernel: https://github.com/hengyedev/kirinkernel
