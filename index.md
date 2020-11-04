@@ -2,15 +2,15 @@
 
 [Back to main page](..)
 
-I started working on a port of UBports Ubuntu Touch on the Xperia 10 (kirin) after I got tired of using Sailfish OS and its app selection. This port is a Halium 9 port using the GSI, however, many modifications are required to install it even though it's a GSI. Here I document how to install and use Ubuntu TOuch on this device. 
+I started working on a port of UBports Ubuntu Touch on the Xperia 10 (kirin) after I got tired of using Sailfish OS and its app selection. This port is a Halium 9 port using the GSI, however, many modifications are required to install it even though it's a GSI. Here I document how to install and use Ubuntu Touch on this device. 
 
-The port is still experimental. It may or may not be daily driver ready, considering your needs. Normal phone functions (phone calls, data connection, SMS messages) are working properly. Features such as the fingerprint reader, media player, etc are not working. 
+This port is experimental. It may or may not be daily driver ready, considering your needs. Normal phone functions (phone calls, data connection, SMS messages) are working properly. Features such as the fingerprint reader, media player, etc are not working. 
 
-## DIsclaimer
+## Disclaimer
 
 ```
 /*
- * Your warranty is now void.
+ * After you install this, your warranty will be void.
  *
  * I am not responsible for bricked devices, dead SD cards,
  * thermonuclear war, or you getting fired because the alarm app failed. Please
@@ -21,9 +21,11 @@ The port is still experimental. It may or may not be daily driver ready, conside
  
 ```
 
+When you unlock the bootloader (I won't go into that here) you WILL lose data and camera algorithms. 
+
 ## Prerequisites
 
-* Sony Xperia 10 i3123 or i3113 (untested)
+* Sony Xperia 10 i3123 (tested) or i3113 (untested)
 * Unlocked bootloader
 * Stock android 9 ROM installed - Note: if you have Sailfish OS/Android 10/etc installd on your phone you need to install the Stock Android9 ROM. This will require using the Sony Emma tool which requires Windows.
 * Carefulness and desire to learn
@@ -31,7 +33,7 @@ The port is still experimental. It may or may not be daily driver ready, conside
 ## How to Install
 
 1. Boot TWRP
-2. Install the boot.img
+2. Install the boot.img from the GitHub releases
 3. Install [halium-ramdisk.zip](https://build.lolinet.com/file/halium/GSI/tools/halium-ramdisk.zip), [apparmor-enabler.zip](https://build.lolinet.com/file/halium/GSI/tools/apparmor_enabler.zip), [Halium boot no console patch](https://build.lolinet.com/file/halium/GSI/tools/Halium-boot_no_console_patch.zip), and [latest GSI](https://build.lolinet.com/file/halium/GSI)
 4. Reboot
 
@@ -43,6 +45,8 @@ First check [the What works/what doesn't list](feature-list)
 * Wifi not functioning: move kernel modules to proper location, `depmod -a`, and add kernel module names in modules-load.d
 
 ## How to build kernel
+
+**NOTE: The kernel sources are currently out of date because I messed up some apparmor files. The kernel sources in my kernel repo will cause some stuff to break, such as wifi.**
 
 You might want to modify the kernel to get more features working. After you modify the kernel, compile it:
 
@@ -60,5 +64,5 @@ make -j16 O=./out
 
 ## Resources
 
-* [Kernel](https://github.com/hengyedev/kirinkernel)
+* [Kernel](https://github.com/hengyedev/kirinkernel) **currently out of date**
 * [UBports Project Homepage](https://ubports.com/)
