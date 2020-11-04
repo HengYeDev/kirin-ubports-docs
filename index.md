@@ -33,7 +33,7 @@
 
 You might want to modify the kernel to get more features working. After you modify the kernel, compile it:
 
-``
+```
 export CROSS_COMPILE=[YOUR CROSS COMPILER PATH]
 export ARCH=arm64
 export KBUILD_DIFFCONFIG=kirin_diffconfig
@@ -43,6 +43,7 @@ make mrproper
 make sdm660-perf_defconfig O=./out ARCH=arm64 
 ./check-kernel-config out/.config -w # https://github.com/erfanoabdi/halium-boot/blob/halium-9.0/check-kernel-config
 make -j16 O=./out
+```
 
 ## Resources
 
