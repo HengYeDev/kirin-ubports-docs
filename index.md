@@ -2,6 +2,10 @@
 
 [Back to main page](..)
 
+I started working on a port of UBports Ubuntu Touch on the Xperia 10 (kirin) after I got tired of using Sailfish OS and its app selection. This port is a Halium 9 port using the GSI, however, many modifications are required to install it even though it's a GSI. Here I document how to install and use Ubuntu TOuch on this device. 
+
+The port is still experimental. It may or may not be daily driver ready, considering your needs. Normal phone functions (phone calls, data connection, SMS messages) are working properly. Features such as the fingerprint reader, media player, etc are not working. 
+
 ## DIsclaimer
 
 ```
@@ -16,6 +20,13 @@
  */
  
 ```
+
+## Prerequisites
+
+* Sony Xperia 10 i3123 or i3113 (untested)
+* Unlocked bootloader
+* Stock android 9 ROM installed - Note: if you have Sailfish OS/Android 10/etc installd on your phone you need to install the Stock Android9 ROM. This will require using the Sony Emma tool which requires Windows.
+* Carefulness and desire to learn
 
 ## How to Install
 
