@@ -37,6 +37,8 @@ The port is still experimental. It may or may not be daily driver ready, conside
 
 ## Problems and fixes
 
+First check [the What works/what doesn't list](feature-list)
+
 * Bluetooth not functioning: `sudo stop bluebinder && sudo start bluebinder`
 * Wifi not functioning: move kernel modules to proper location, `depmod -a`, and add kernel module names in modules-load.d
 
