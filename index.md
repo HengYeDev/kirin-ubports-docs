@@ -25,7 +25,7 @@ When you unlock the bootloader (I won't go into that here) you WILL lose data an
 
 ## Prerequisites
 
-* Sony Xperia 10 i3123 (tested) or i3113 (untested)
+* Sony Xperia 10 i3123 (tested) or other variants (should work) - but NOT Xperia 10 Plus
 * Unlocked bootloader
 * Stock android 9 ROM installed - Note: if you have Sailfish OS/Android 10/etc installd on your phone you need to install the Stock Android9 ROM. This will require using the Sony Emma tool which requires Windows.
 * Carefulness and desire to learn
