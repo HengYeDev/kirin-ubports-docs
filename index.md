@@ -1,3 +1,5 @@
+# IMPORTANT: Information and downloads have been moved to Ubuntu Touch official website, please see https://devices.ubuntu-touch.io/device/kirin/ for details. Follow instructions in forum thread to install. All below information is deprecated and should not be used except if you really know what you're doing. Thanks - Heng 
+
 # Homepage
 
 [Back to main page](..)
